@@ -8,7 +8,7 @@
 - **Subject:** Application Software Development & Deployment (ASDD) Lab
 - **Instructor:** Prof. Radhika Bailurkar
 - **Date:** 22/10/2026
-- **GitHub Repository:** https://github.com/kartikm95-2006/asdd-assignment-2
+- **GitHub Repository:** https://github.com/kartikm95-2006/Asdd-Assignment-2-
 
 ---
 
@@ -256,7 +256,7 @@ jobs:
 
 ## 7. Submission Details
 
-- **GitHub Repository URL:** https://github.com/kartikm95-2006/asdd-assignment-2
-- **Container Registry:** `ghcr.io/kartikm95-2006/asdd-assignment-2:latest`
+- **GitHub Repository URL:** https://github.com/kartikm95-2006/Asdd-Assignment-2-
+- **Container Registry:** `ghcr.io/kartikm95-2006/asdd-assignment-2-:latest`
 - **Workflow File:** `.github/workflows/ci-cd.yml`
 - **Result:** Build ➔ Test ➔ Deploy successfully executed and verified.

@@ -153,7 +153,7 @@ def cover(canvas, doc):
     canvas.drawString(right_x, y, "GITHUB REPOSITORY")
     canvas.setFont("Georgia", 10.5)
     canvas.drawString(left_x, y - 14, "24106126 / Prof. Radhika Bailurkar")
-    canvas.drawString(right_x, y - 14, "github.com/kartikm95-2006/asdd-assignment-2")
+    canvas.drawString(right_x, y - 14, "github.com/kartikm95-2006/Asdd-Assignment-2-")
     
     # Problem Statement Summary Box
     canvas.setFillColor(colors.HexColor("#f1f5f9"))
@@ -353,7 +353,7 @@ commands = [
     [P("git add .", "Small"), P("Stages all project source code, tests, Dockerfile, and workflow files.", "Small")],
     [P('git commit -m "Initial commit..."', "Small"), P("Creates the initial root commit (SHA: c8e7241).", "Small")],
     [P("pytest test_app.py -v", "Small"), P("Executes 8 automated unit tests locally; all 8 passed in 0.40s.", "Small")],
-    [P("git remote add origin <URL>", "Small"), P("Links the local repository to GitHub: github.com/kartikm95-2006/asdd-assignment-2.", "Small")],
+    [P("git remote add origin <URL>", "Small"), P("Links the local repository to GitHub: github.com/kartikm95-2006/Asdd-Assignment-2-.", "Small")],
     [P("git push -u origin main", "Small"), P("Pushes commits to GitHub, automatically triggering the GitHub Actions CI/CD workflow.", "Small")],
 ]
 cmd_table = Table(commands, colWidths=[2.55 * inch, 3.9 * inch], repeatRows=1)
@@ -385,11 +385,11 @@ story.extend([
     Spacer(1, 10),
     evidence("tasktrack-app.png", "Figure 4: TaskTrack DevOps Portal Web Interface Evidence", "Browser screenshot of the running Python application displaying real-time task tracking, stats counters, and active pipeline indicator."),
     PageBreak(),
-    evidence("github-repository.png", "Figure 5: GitHub Repository Evidence (kartikm95-2006/asdd-assignment-2)", "Screenshot of the published GitHub repository showing all files, Dockerfile, GitHub Actions workflow, and successful run badge."),
+    evidence("github-repository.png", "Figure 5: GitHub Repository Evidence (kartikm95-2006/Asdd-Assignment-2-)", "Screenshot of the published GitHub repository showing all files, Dockerfile, GitHub Actions workflow, and successful run badge."),
     Spacer(1, 10),
     P("Submission Links & Summary:", "Subsection"),
-    P("<b>GitHub Repository URL:</b> <font color='#2563eb'><u>https://github.com/kartikm95-2006/asdd-assignment-2</u></font>", "Body"),
-    P("<b>Docker Image (GHCR):</b> <font color='#2563eb'><u>ghcr.io/kartikm95-2006/asdd-assignment-2:latest</u></font>", "Body"),
+    P("<b>GitHub Repository URL:</b> <font color='#2563eb'><u>https://github.com/kartikm95-2006/Asdd-Assignment-2-</u></font>", "Body"),
+    P("<b>Docker Image (GHCR):</b> <font color='#2563eb'><u>ghcr.io/kartikm95-2006/asdd-assignment-2-:latest</u></font>", "Body"),
     P("<b>Commit SHA:</b> <code>c8e7241</code> | <b>Pipeline Status:</b> <font color='#16a34a'><b>Passing (All Stages Successful)</b></font>", "Body"),
     Spacer(1, 6),
     P("6. Conclusion", "Section"),
